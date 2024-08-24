@@ -1,0 +1,6 @@
++ Lệnh "python manage.py makemigrations" được sử dụng để tạo các tệp migration dựa trên các thay đổi trong mô hình cơ sở dữ liệu của bạn. Migrations là một cách để Django theo dõi các thay đổi trong các mô hình (models) của bạn và áp dụng chúng vào cơ sở dữ liệu
+
++ Lệnh "python manage.py migrate" trong Django được sử dụng để áp dụng các tệp migration vào cơ sở dữ liệu của bạn. Migrations là cách Django quản lý các thay đổi đối với các mô hình (models) của bạn và đảm bảo rằng cơ sở dữ liệu được cập nhật phù hợp với những thay đổi đó.
+python manage.py createsuperuser
+
++ Lệnh "python manage.py createsuperuser" trong Django được sử dụng để tạo một tài khoản người dùng siêu quản trị viên (superuser) trong ứng dụng của bạn. Siêu quản trị viên là một tài khoản có quyền truy cập đầy đủ vào tất cả các phần của ứng dụng Django, bao gồm cả trang quản trị (admin site).
