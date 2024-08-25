@@ -53,10 +53,12 @@ def logout(request):
     auth.logout(request)
     return redirect('/')
 
+def post(request, pk):
+    return render(request, 'post.html', {'pk' : pk})
+
 def counter(request):
-    text = request.POST['text']
-    amount_of_words = len(text.split())
-    return render(request, 'counter.html', {'amount' :amount_of_words})
+    posts = [1, 2, 3, 4, 5, 'tim', 'john']
+    return render(request, 'counter.html', {'posts' :posts})
 
 def about(request):
     return render(request, 'portfolio-details.html')
